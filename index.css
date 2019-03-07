@@ -1,0 +1,282 @@
+/* common */
+body,
+ul,
+ol,
+dl,
+li,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+td,
+img{
+    margin: 0;
+    padding: 0
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Microsoft YaHei UI', sans-serif
+}
+body{
+    position: relative
+}
+h1{
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px
+}
+h2{
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 9px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 38px;
+    border-bottom: #ef7674 6px solid
+}
+h3{
+    padding-bottom: 3px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+h4{
+    margin: 0;
+    padding-bottom: 6px;
+    color: #5b4c5c;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+}
+h5{
+    padding-bottom: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+p{
+    color: #897f8a;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+/* end common */
+
+/* header */
+header .banner{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+.banner-bgi{
+    position: relative;
+}
+header .banner li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header .banner .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+}
+header .banner li img{
+    width: 100%;
+    height: 100vh;
+}
+header .banner .bannerText{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+}
+header .banner .bannerText p{
+    color: #fff;
+    font-size: 18px;
+}
+/* end header */
+
+/* navbar */
+nav.navbar{
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    background-color: #fff;
+    border-color: #fff;
+}
+nav.navbar .nav-wrap{
+    margin: 0 auto;
+}
+nav.navbar a{
+    padding: 40px 30px;
+}
+nav.navbar .nav-wrap a:hover{
+    color: #ef7674;
+}
+/* end navbar */
+
+/* aboutme */
+.aboutme {
+    background-color: #f3f2f3;
+}
+.aboutme .container{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.aboutme .container .heading{
+    padding-bottom: 26px;
+    text-align: center;
+}
+.aboutme .container .aboutInfo{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.aboutme .container .aboutInfo > div{
+    margin: 20px auto;
+}
+.aboutme .iconfont{
+    font-size: 90px;
+}
+.iconfont.icon-nianling{
+    color: #ef7674;
+}
+.iconfont.icon-xueli{
+    color: #3aa6ff;
+}
+.iconfont.icon-dizhi{
+    color: #88d79d;
+}
+.aboutme .container .aboutInfo > div .text p {
+    margin-top: 15px;
+    color: #483c49;
+}
+.aboutme #description p{
+    text-align: center;
+}
+/* end aboutme */
+
+/* skills */
+.skills .container{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.skills .container .heading{
+    padding-bottom: 45px;
+    text-align: center;
+}
+.skills .container .heading p{
+    padding-top: 12px;
+    text-align: left;
+}
+/* skills */
+
+/* experience */
+.experience{
+    background-color: #f3f2f3;
+}
+.experience .container{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.experience .container .heading{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.experience .workDetails .workYear{
+    color: #fff;
+    font-size: 17px;
+    line-height: 40px;
+}
+.experience .workYear span{
+    display: block;
+    float: right;
+    margin-right: 28px;
+    margin-bottom: 2px;
+    padding: 0 21px;
+    font-weight: bold;
+    font-size: 18px;
+    white-space: nowrap;
+}
+.experience .workYear .preY{
+    background-color: #ef7674;
+}
+.experience .workYear .afterY{
+    background-color: #483c49;
+}
+.experience .rightArea{
+    padding-bottom: 47px;
+    border-left: dashed 1px #897f8a;
+}
+/* end experience */
+
+/* self-evaluation */
+.self-evaluation .container{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.self-evaluation .heading{
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* end self-evaluation */
+
+/* contact */
+.contact{
+    background-color: #f3f2f3;
+}
+.contact .container{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.contact .heading{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.contact .iconfont{
+    font-size: 80px;
+}
+/* end contact */
+
+
+
+@media (max-width: 768px) {
+    nav.navbar .nav-wrap a {
+        padding: 20px;
+    }
+    #experience .workDetails .workYear {
+        margin: 0 auto 20px;
+        overflow: hidden;
+    }
+    #experience .workDetails .workYear span {
+        width: 100%;
+        margin-right: 0;
+    }
+    #experience .workDetails .rightArea {
+        border-left: none;
+    }
+}
