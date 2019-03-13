@@ -262,7 +262,31 @@ nav.navbar .nav-wrap a:hover{
 }
 /* end contact */
 
+/* conclusion */
+#conclusion{
+    text-align: center;
+}
+#conclusion .container{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#conclusion .row{
+    margin-bottom: 50px;
+}
+.conclusion-text > p{
+    margin: 20px auto;
+    font-size: 25px;
+}
+/* end conclusion */
 
+/* footer */
+#footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #27303f;
+}
+/* end footer */
 
 @media (max-width: 768px) {
     nav.navbar .nav-wrap a {
